@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "authress-sdk": "^1.0.150"
+    "authress-login": "^1.1.76",
+    "authress-sdk": "^1.2.8",
+    "axios": "^0.24.0",
+    "express": "^4.17.1"
   }
 }
